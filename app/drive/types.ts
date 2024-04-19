@@ -47,3 +47,9 @@ export type DriveFileStats = {
   isFile: boolean
   etag?: string
 }
+
+export interface DriversList {
+  s3: {
+    config: S3DriverConfig
+  }
+}

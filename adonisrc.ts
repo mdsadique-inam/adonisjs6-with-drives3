@@ -28,6 +28,7 @@ export default defineConfig({
       file: () => import('@adonisjs/core/providers/repl_provider'),
       environment: ['repl', 'test'],
     },
+    () => import('./app/drive/drive_provider.js'),
   ],
 
   /*
